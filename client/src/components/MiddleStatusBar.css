@@ -1,0 +1,37 @@
+.MSB__container{
+    height: 10%;
+    width: 100%;
+    background-color:  var(--primary-d);
+    
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    padding-right: 2rem;
+    
+}
+
+.MSB__title{
+margin-left: 2rem;
+}
+
+.MSB__image{
+    margin-left: auto;
+    display: flex;
+    gap: 1rem;
+}
+
+.MSB__image__settings{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5rem;
+    gap: 2rem;
+    
+}
+
+.MSB__unit , .MSB__i{
+    font-size: 1.3rem;
+    
+    
+}
+

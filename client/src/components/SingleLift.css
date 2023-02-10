@@ -1,0 +1,51 @@
+.SL__container{
+    width: 90%;
+    height: 3rem;
+    background-color: var(--primary-d);
+    border-radius: 8px;
+    display: flex;
+
+
+}
+
+.SL__weight__container{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    height: 100%;
+    width: 30%;
+    
+    background-color: var(--highlight-d);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SL__weight__value{
+    font-size: 1.5rem;
+    font-weight: bolder;
+
+}
+
+.SL__weight__unit{
+    align-self: flex-end;
+    margin-bottom: 0.3rem;
+}
+
+.SL__icons{
+    
+    width: 70%;
+    color: white;
+    display: flex;
+margin-left:auto ;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 10%;
+    gap: 10%;
+    
+}
+
+.SL__i{
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+

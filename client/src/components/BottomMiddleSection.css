@@ -1,0 +1,8 @@
+.BMS__container{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-d);
+    height: 55%;
+    width: 100%;
+    
+}

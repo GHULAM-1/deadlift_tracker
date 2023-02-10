@@ -1,0 +1,8 @@
+.MS__container{
+    display: flex;
+    background-color: var(--primary-d);
+    height: 100%;
+    width: 70%;
+    flex-direction: column;
+
+}

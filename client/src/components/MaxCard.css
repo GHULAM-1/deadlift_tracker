@@ -1,0 +1,71 @@
+.MaxCard__container{
+    height:70% ;
+    width: 20%;
+  
+    display: flex;
+    flex-direction: column;
+    color: var(--max-d);
+    background-color: var(--card-d);
+    align-items: center;
+    border-radius:8px;
+    justify-content: center;
+    gap: 0.5rem;
+    
+}
+.MaxCard__weightAndUnit{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.MaxCard__unit{
+    align-self: flex-end;
+}
+
+.MaxCard__weight{
+    font-size:2rem ;
+    letter-spacing: 0.2rem;
+    font-weight: bolder;
+}
+
+.MaxCard__title{
+    text-transform: uppercase;
+    font-size: 2rem;
+        letter-spacing: 0.2rem;
+
+}
+
+@media only screen and (max-width: 900px) {
+.MaxCard__weight {
+        font-size:1.5rem;
+        letter-spacing: 0.2rem;
+        font-weight: bolder;
+    }
+
+    .MaxCard__title {
+        font-size: 1.5rem;
+        letter-spacing: 0.2rem;
+
+    }
+        .MaxCard__container {
+            width: 25%;
+            margin-left: 1rem;
+        }
+}
+
+@media only screen and (max-width: 500px) {
+    .MaxCard__container {
+        height: 25%;
+        margin-left: 0;
+        width: 50%;
+
+    }
+}
+
+@media only screen and (max-width: 250px) {
+    .MaxCard__container {
+        
+        width: 80%;
+
+    }
+}
